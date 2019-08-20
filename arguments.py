@@ -7,7 +7,7 @@
 '''
 import tensorflow as tf
 
-BERT_BASE_DIR = '/home/itibia/chinese_L-12_H-768_A-12/'
+BERT_BASE_DIR = 'chinese_L-12_H-768_A-12/'
 arg_dic = {
     "data_dir": './data/',              # 数据目录
     "output_dir": './output/',          # ckpt 输出目录
