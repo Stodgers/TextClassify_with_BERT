@@ -11,7 +11,7 @@ BERT_BASE_DIR = 'chinese_L-12_H-768_A-12/'
 arg_dic = {
     "data_dir": './data/',              # 数据目录
     "output_dir": './output/',          # ckpt 输出目录
-    'pb_model_dir':'./pb/',
+    'pb_model_dir':'./pb/', #pb
     "bert_config_file": BERT_BASE_DIR + 'bert_config.json',
     "task_name": 'cnews',  # "The name of the task to train.
     "vocab_file": BERT_BASE_DIR + 'vocab.txt',  # The vocabulary file that the BERT model was trained on.
